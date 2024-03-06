@@ -5,7 +5,7 @@ import admin from '../../images/Admin.svg';
 
 const Navbar = () => {
      return (
-          <div className=' lg:px-10 border'>
+          <div className=' lg:px-10 border-b-2'>
                <div className="navbar bg-base-100">
                     <div className="lg:navbar-start">
                          <div className="dropdown">
