@@ -2,7 +2,7 @@ import React from 'react';
 
 const ChooseUs = () => {
      return (
-          <div className=' lg:px-28 px-5'>
+          <div className=' lg:px-28 px-5 lg:pt-28'>
                <div className=' lg:flex  items-center'>
                     <div className=' lg:w-[34rem] w-full text-center lg:text-start'>
                          <div className=' flex justify-center lg:justify-start'>
