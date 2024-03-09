@@ -3,7 +3,7 @@ import Section from '../../images/Overview Section.png'
 
 const Information = () => {
      return (
-          <div className=' bg-[#FFFAF2] lg:h-60 my-20'>
+          <div className=' bg-[#FFFAF2] lg:h-60 my-28'>
                <div className=' lg:px-28 px-5 '>
                     <div className=' lg:flex justify-between'>
                          <div>

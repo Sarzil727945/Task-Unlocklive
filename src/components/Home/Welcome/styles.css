@@ -1,0 +1,24 @@
+.swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.swiper-pagination {
+     display: flex;
+}
+
+@media screen and (max-width: 992px) {
+     .swiper-pagination {
+          display: block;
+     }
+}
+
+.swiper-pagination-bullet-active {
+     background-color: #86371C;
+}
