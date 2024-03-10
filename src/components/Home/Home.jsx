@@ -3,8 +3,8 @@ import NewCreations from './NewCreations';
 import CoffeeMenu from './CoffeeMenu';
 import ChooseUs from './ChooseUs';
 import Information from './Information';
-import NewRecipes from './NewRecipes';
 import Welcome from './Welcome/Welcome';
+import NewRecipes from './NewRecipes/NewRecipes';
 
 const Home = () => {
      return (

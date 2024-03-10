@@ -7,7 +7,7 @@ import Coconut from '../../images/Coconut.png'
 
 const CoffeeMenu = () => {
      return (
-          <div className=' my-20'>
+          <div className=' mt-20 mb-10'>
                <div className=' text-center lg:w-[36rem] mx-auto '>
                     <div className=' flex justify-center'>
                          <div style={{

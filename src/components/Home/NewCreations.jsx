@@ -8,7 +8,7 @@ import img3 from '../../images/img3.png'
 const NewCreations = () => {
      return (
           <div>
-               <div className=' text-center lg:w-[36rem] mx-auto'>
+               <div className=' text-center lg:w-[36rem] mx-auto pt-20'>
                     <i className='w-[100px] text-[#86371C] pb-1' style={{
                          backgroundImage: 'linear-gradient(to right, #fff 0%, #86371C 100%, #fff 0%)',
                          backgroundPosition: 'bottom',
