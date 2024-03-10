@@ -3,15 +3,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './styles.css';
-import { Navigation} from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import Bargar from '../../../images/bargar.png';
 import Pita from '../../../images/pita.png';
+import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
+
 
 export default function App() {
   return (
     <div className=' bg-[#FFFAF2] justify-center items-center '>
       <div className=' lg:px-20 px-5 lg:relative py-20'>
-        <div className=' lg:w-96 bg-[#FFFAF2] z-10 lg:absolute'>
+        <div className=' lg:w-[28rem] bg-[#FFFAF2] z-10 lg:absolute pb-14 px-4'>
           <div className=' flex justify-start'>
             <div style={{
               backgroundImage: 'linear-gradient(to right, #fff 0%, #86371C 100%, #fff 0%)',
@@ -33,6 +35,19 @@ export default function App() {
             There are many variations of passages of Lorem Ipsum form any injected humour, or randomised words which don't look
             slightly believable.
           </p>
+          <div className=' flex mt-10'>
+            <div className=' text-4xl text-[#86371C] hidden lg:block'>
+              <a href="#">
+                <FaRegArrowAltCircleLeft />
+              </a>
+
+            </div>
+            <div className=' ps-5 text-4xl text-[#86371C] hidden lg:block'>
+              <a href="#">
+                <FaRegArrowAltCircleRight />
+              </a>
+            </div>
+          </div>
         </div>
         <div>
           <Swiper
@@ -40,9 +55,19 @@ export default function App() {
             spaceBetween={30}
             centeredSlides={true}
             navigation={true}
-            modules={[ Navigation]}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Navigation]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <img src={Bargar} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Pita} alt="" />
+            </SwiperSlide>
             <SwiperSlide>
               <img src={Bargar} alt="" />
             </SwiperSlide>

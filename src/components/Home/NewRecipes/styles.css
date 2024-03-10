@@ -2,10 +2,22 @@
      top: 377px !important;
      left: 0px !important;
      color:  #86371C;
-
 }
 .swiper-button-next{
      top: 377px !important;
      left: 55px !important;
      color:  #86371C;
+}
+
+@media screen and (max-width: 992px) {
+     .swiper-button-prev{
+          top: 44px !important;
+          left: 0px !important;
+          color:  #86371C;
+     }
+     .swiper-button-next{
+          top: 44px !important;
+          color:  #86371C;
+          left: 70px !important;
+     }
 }
